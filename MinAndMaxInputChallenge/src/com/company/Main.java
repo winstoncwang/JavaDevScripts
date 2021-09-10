@@ -7,8 +7,8 @@ public class Main {
     public static void main(String[] args) {
         // write your code here
         //use while loop until input is not int
-        int min = 0;
-        int max = 0;
+        int min = Integer.MAX_VALUE;
+        int max = Integer.MIN_VALUE;
         Scanner scanner = new Scanner(System.in);
         boolean hasNextInt = true;
 
@@ -17,10 +17,10 @@ public class Main {
             hasNextInt = scanner.hasNextInt();
             if (hasNextInt) {
                 int userInput = scanner.nextInt();
-                if (userInput < min || min == 0) {
+                if (userInput < min) {
                     min = userInput;
                 }
-                if (userInput > max || max == 0) {
+                if (userInput > max) {
                     max = userInput;
                 }
             } else {
