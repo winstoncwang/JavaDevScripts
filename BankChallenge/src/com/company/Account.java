@@ -2,7 +2,7 @@ package com.company;
 
 public class Account {
 
-    private String accountNumber;
+    private String number;
     private double balance;
     private String customerName;
     private String email;
@@ -25,8 +25,8 @@ public class Account {
         this.phoneNumber = phoneNumber;
     }
 
-    public void setAccountNumber(String accountNumber) {
-        this.accountNumber = accountNumber;
+    public void setNumber(String number) {
+        this.number = number;
     }
 
     public void setBalance(double balance) {
@@ -41,8 +41,8 @@ public class Account {
         this.email = email;
     }
 
-    public String getAccountNumber() {
-        return accountNumber;
+    public String getNumber() {
+        return number;
     }
 
     public double getBalance() {

@@ -5,8 +5,8 @@ public class Main {
     public static void main(String[] args) {
         // write your code here
         Account cong = new Account();
-        cong.setAccountNumber("125458452");
-        System.out.println(cong.getAccountNumber());
+        cong.setNumber("125458452");
+        System.out.println(cong.getNumber());
         cong.setBalance(254.00);
         System.out.println(cong.getBalance());
         cong.setCustomerName("Cong Wang");
